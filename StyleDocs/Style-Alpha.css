@@ -1,0 +1,87 @@
+body {
+	background-color: #1b1b1b;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	color: #00b8ff;
+}
+
+h2 {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	color: #00b8ff;
+}
+
+h2a {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	color: #00b8ff;
+}
+h2b {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	color: #00b8ff;
+}
+
+noscript:before {
+	font-family: Helvetica, sans-serif;
+	font-weight: normal;
+	color: #00b6ff;
+	display: block;
+	background-color: #ff0000;
+	content: "JavaScript has been disabled. Please enable it."
+}
+
+ematext {
+	font-family: "Lucida Console", monospace;
+	font-size: 20px;
+	color: #00ff00;
+}
+
+copyright {
+	font-family: "Lucida Console", monospace;
+	font-size: 15px;
+	color: #ff0000;
+}
+
+poweredby {
+	font-family: "Lucida Console", monospace;
+	font-size: 15px;
+	color: #ffbbff;
+}
+
+footer {
+	background-color: #1b0b1b;
+}
+
+/*
+	Navigation bar things
+*/ 
+
+mainnav {
+	background-color: #111111;
+	margin: 0px;
+	display: block;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+navlink {
+	background-color: #bbbbbb;
+	
+	
+	color: #ffffff;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	
+	
+	margin: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	
+	
+	text-align: center;
+}
