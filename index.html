@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-<script>
-	console.log('Welcome, $name');
+<script src="./Scripts/main.js">
+	name = prompt("What is your name?")
+	if (name=="glaqss"){
+		alert("GLAQSS BLYAT")
+	}else{
+		alert(`Welcome to the website, ${name}!`)
+	}
+	console.log(`Welcome, ${name}`);
 	
 </script>
 <html>
@@ -16,11 +22,22 @@
 		<link rel="stylesheet" href="./StyleDocs/Block-Styles.css">
 		<link rel="icon" href="./Images/Logos/Logo.png">
 		<title>NextTech Corporation</title>
+		<script>
+			let name = prompt("What is your name?")
+			let lower = name.toLowerCase()
+			if (lower=="glaqss"){
+				alert("GLAQSS BLYAT")
+			}else{
+				alert(`Welcome to the website, ${name}!`)
+			}
+			
+		</script>
 	</head>
 	<nav>
-		<mainnav>
+		<mainnav class="noSelect">
 			<navlink>Documentation</navlink>
-			<navlink>About Us</navlink>
+			<navlink>Our Games</navlink>
+			<navlink>["./Pages/.html"](About Us)</navlink>
 		</mainnav>
 	</nav>
 	<body>
@@ -28,11 +45,10 @@
 		<h2 style="text-align:center">Empowering the future of games on Roblox, since 2021.</h2>
 		<!<embed type="text/html" src="./">
 		<codeframe>
-			<code-lua>CODE BLOCK!
-			Coded by glaqss.
-			br tag should not have to be used here.</code-lua>
+			<div class="luaCode">CODE BLOCK! <br>
+			Coded by glaqss. <br>
+			br tag should not have to be used here, but it is. </div>
 		</codeframe>
-		<button onclick="alert('Hello')">Click me.</button>
 	</body>
 	<footer>
 		
