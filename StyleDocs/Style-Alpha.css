@@ -54,6 +54,7 @@ poweredby {
 
 footer {
 	background-color: #1b0b1b;
+	vertical-align: bottom;
 }
 
 /*
@@ -68,13 +69,14 @@ mainnav {
 	padding-top: 5px;
 }
 navlink {
-	background-color: #bbbbbb;
+	background-color: #404040;
 	
 	
 	color: #ffffff;
 	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 	
+	border-radius: 5px;
 	
 	margin: 10px;
 	padding-left: 2px;
@@ -84,4 +86,44 @@ navlink {
 	
 	
 	text-align: center;
+}
+
+/*
+	Navigation declarations
+*/
+
+navlink:hover {
+	background-color: #707070;
+	
+	
+	color: #ffffff;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	
+	border-radius: 5px;
+	
+	margin: 10px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	
+	
+	text-align: center;
+}
+
+/*
+	Text variation classes
+*/
+.noSelect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+a.hypervisor:link {
+	text-decoration: none;
 }
